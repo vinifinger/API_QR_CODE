@@ -4,13 +4,17 @@
   "description": "Esse é um microserviço para geração de QR Code",
   "main": "index.js",
   "scripts": {
-    "start": "tsnd --transpile-only --ignore-watch node_modules --respawn src/server.ts"
+    "start": "tsnd --transpile-only --ignore-watch node_modules --respawn src/server.ts",
+    "test": "mocha -r ts-node/register tests/**/*.test.ts"
   },
   "author": "Vinicius M. Finger",
   "license": "ISC",
   "devDependencies": {
+    "@types/chai": "^4.2.14",
     "@types/cors": "^2.8.7",
     "@types/express": "^4.17.7",
+    "@types/mocha": "^8.0.4",
+    "mocha": "^8.2.1",
     "ts-node-dev": "^1.0.0-pre.56",
     "typescript": "^3.9.7"
   },

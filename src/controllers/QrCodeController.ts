@@ -15,5 +15,5 @@ export default class QrCodeController {
         } catch (error) {
             return res.status(500).json({ 'Message': error });   
         }
-    }   
+    }
 }
