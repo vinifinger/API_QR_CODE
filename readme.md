@@ -13,7 +13,7 @@ Para clonar e rodar os testes dessa aplicação, vai ser necessário [Git](https
 
 Esse projetinho é bem simples e básico para criação de QR Code, é só rodar as linhas abaixo e testar utilizando a um [Insomnia](https://insomnia.rest) ou [Postman](https://www.postman.com) na rota [localhost:3333/qrcode](http://localhost:3333/qrcode).
 
-Para inserir a url é só colocar como uma Query na requisição, exemplo: [http://localhost:3333/qrcode?url=https%3A%2F%2Fwww.linkedin.com%2Fin%2Fvinicius-finger%2F]
+Para inserir a url é só colocar como uma Query na requisição, exemplo: `?url=https%3A%2F%2Fwww.linkedin.com%2Fin%2Fvinicius-finger%2F`
 
 Usar as seguintes linhas de comando:
 
